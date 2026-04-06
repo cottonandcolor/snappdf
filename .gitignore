@@ -1,0 +1,13 @@
+.DS_Store
+.sfdx/
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.png
+!SnapPDF/SnapPDF/Assets.xcassets/**/*.png
+screenshot_*.png
+simulator_screenshot.png

@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		73B6F20B2F831A9D0088DA1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73B6F1F12F831A9B0088DA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B6F1F82F831A9B0088DA1A;
+			remoteInfo = SnapPDF;
+		};
+		73B6F2152F831A9D0088DA1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73B6F1F12F831A9B0088DA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B6F1F82F831A9B0088DA1A;
+			remoteInfo = SnapPDF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73B6F1F92F831A9B0088DA1A /* SnapPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B6F20A2F831A9D0088DA1A /* SnapPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B6F2142F831A9D0088DA1A /* SnapPDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapPDFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		73B6F21C2F831A9D0088DA1A /* Exceptions for "SnapPDF" folder in "SnapPDF" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 73B6F1F82F831A9B0088DA1A /* SnapPDF */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		73B6F1FB2F831A9B0088DA1A /* SnapPDF */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				73B6F21C2F831A9D0088DA1A /* Exceptions for "SnapPDF" folder in "SnapPDF" target */,
+			);
+			path = SnapPDF;
+			sourceTree = "<group>";
+		};
+		73B6F20D2F831A9D0088DA1A /* SnapPDFTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SnapPDFTests;
+			sourceTree = "<group>";
+		};
+		73B6F2172F831A9D0088DA1A /* SnapPDFUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SnapPDFUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73B6F1F62F831A9B0088DA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B6F2072F831A9D0088DA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B6F2112F831A9D0088DA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73B6F1F02F831A9B0088DA1A = {
+			isa = PBXGroup;
+			children = (
+				73B6F1FB2F831A9B0088DA1A /* SnapPDF */,
+				73B6F20D2F831A9D0088DA1A /* SnapPDFTests */,
+				73B6F2172F831A9D0088DA1A /* SnapPDFUITests */,
+				73B6F1FA2F831A9B0088DA1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73B6F1FA2F831A9B0088DA1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73B6F1F92F831A9B0088DA1A /* SnapPDF.app */,
+				73B6F20A2F831A9D0088DA1A /* SnapPDFTests.xctest */,
+				73B6F2142F831A9D0088DA1A /* SnapPDFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73B6F1F82F831A9B0088DA1A /* SnapPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73B6F21D2F831A9D0088DA1A /* Build configuration list for PBXNativeTarget "SnapPDF" */;
+			buildPhases = (
+				73B6F1F52F831A9B0088DA1A /* Sources */,
+				73B6F1F62F831A9B0088DA1A /* Frameworks */,
+				73B6F1F72F831A9B0088DA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				73B6F1FB2F831A9B0088DA1A /* SnapPDF */,
+			);
+			name = SnapPDF;
+			packageProductDependencies = (
+			);
+			productName = SnapPDF;
+			productReference = 73B6F1F92F831A9B0088DA1A /* SnapPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73B6F2092F831A9D0088DA1A /* SnapPDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73B6F2222F831A9D0088DA1A /* Build configuration list for PBXNativeTarget "SnapPDFTests" */;
+			buildPhases = (
+				73B6F2062F831A9D0088DA1A /* Sources */,
+				73B6F2072F831A9D0088DA1A /* Frameworks */,
+				73B6F2082F831A9D0088DA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73B6F20C2F831A9D0088DA1A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				73B6F20D2F831A9D0088DA1A /* SnapPDFTests */,
+			);
+			name = SnapPDFTests;
+			packageProductDependencies = (
+			);
+			productName = SnapPDFTests;
+			productReference = 73B6F20A2F831A9D0088DA1A /* SnapPDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73B6F2132F831A9D0088DA1A /* SnapPDFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73B6F2252F831A9D0088DA1A /* Build configuration list for PBXNativeTarget "SnapPDFUITests" */;
+			buildPhases = (
+				73B6F2102F831A9D0088DA1A /* Sources */,
+				73B6F2112F831A9D0088DA1A /* Frameworks */,
+				73B6F2122F831A9D0088DA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73B6F2162F831A9D0088DA1A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				73B6F2172F831A9D0088DA1A /* SnapPDFUITests */,
+			);
+			name = SnapPDFUITests;
+			packageProductDependencies = (
+			);
+			productName = SnapPDFUITests;
+			productReference = 73B6F2142F831A9D0088DA1A /* SnapPDFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73B6F1F12F831A9B0088DA1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					73B6F1F82F831A9B0088DA1A = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					73B6F2092F831A9D0088DA1A = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = 73B6F1F82F831A9B0088DA1A;
+					};
+					73B6F2132F831A9D0088DA1A = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = 73B6F1F82F831A9B0088DA1A;
+					};
+				};
+			};
+			buildConfigurationList = 73B6F1F42F831A9B0088DA1A /* Build configuration list for PBXProject "SnapPDF" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73B6F1F02F831A9B0088DA1A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 73B6F1FA2F831A9B0088DA1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73B6F1F82F831A9B0088DA1A /* SnapPDF */,
+				73B6F2092F831A9D0088DA1A /* SnapPDFTests */,
+				73B6F2132F831A9D0088DA1A /* SnapPDFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73B6F1F72F831A9B0088DA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B6F2082F831A9D0088DA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B6F2122F831A9D0088DA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73B6F1F52F831A9B0088DA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B6F2062F831A9D0088DA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B6F2102F831A9D0088DA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73B6F20C2F831A9D0088DA1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73B6F1F82F831A9B0088DA1A /* SnapPDF */;
+			targetProxy = 73B6F20B2F831A9D0088DA1A /* PBXContainerItemProxy */;
+		};
+		73B6F2162F831A9D0088DA1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73B6F1F82F831A9B0088DA1A /* SnapPDF */;
+			targetProxy = 73B6F2152F831A9D0088DA1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73B6F21E2F831A9D0088DA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Q2XML4N8;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapPDF/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.preetidave.snappdf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73B6F21F2F831A9D0088DA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Q2XML4N8;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapPDF/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.preetidave.snappdf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73B6F2202F831A9D0088DA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = H3Q2XML4N8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73B6F2212F831A9D0088DA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = H3Q2XML4N8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		73B6F2232F831A9D0088DA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Q2XML4N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Self.SnapPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapPDF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapPDF";
+				
+			};
+			name = Debug;
+		};
+		73B6F2242F831A9D0088DA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Q2XML4N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Self.SnapPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapPDF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapPDF";
+				
+			};
+			name = Release;
+		};
+		73B6F2262F831A9D0088DA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Q2XML4N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Self.SnapPDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapPDF;
+				
+			};
+			name = Debug;
+		};
+		73B6F2272F831A9D0088DA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Q2XML4N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Self.SnapPDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapPDF;
+				
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73B6F1F42F831A9B0088DA1A /* Build configuration list for PBXProject "SnapPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B6F2202F831A9D0088DA1A /* Debug */,
+				73B6F2212F831A9D0088DA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73B6F21D2F831A9D0088DA1A /* Build configuration list for PBXNativeTarget "SnapPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B6F21E2F831A9D0088DA1A /* Debug */,
+				73B6F21F2F831A9D0088DA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73B6F2222F831A9D0088DA1A /* Build configuration list for PBXNativeTarget "SnapPDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B6F2232F831A9D0088DA1A /* Debug */,
+				73B6F2242F831A9D0088DA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73B6F2252F831A9D0088DA1A /* Build configuration list for PBXNativeTarget "SnapPDFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B6F2262F831A9D0088DA1A /* Debug */,
+				73B6F2272F831A9D0088DA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73B6F1F12F831A9B0088DA1A /* Project object */;
+}
