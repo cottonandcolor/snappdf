@@ -50,3 +50,16 @@ Home Screen → Tap Camera → Take Photo → Adjust Corners → Create PDF
 - iOS 16.0+
 - Xcode 15+
 - Physical device (for camera)
+
+
+## App Store Connect / AdMob
+
+| Field | Value |
+|--------|--------|
+| **Marketing URL** | `https://cottonandcolor.github.io` |
+| **Support URL** | `https://github.com/cottonandcolor/snappdf/issues` |
+| **Privacy Policy URL** | `https://cottonandcolor.github.io/snappdf/privacy.html` |
+
+AdMob file: https://cottonandcolor.github.io/app-ads.txt
+
+Changing Marketing URL on a Ready for Distribution version requires uploading **1.0.1 (build 5)**.
